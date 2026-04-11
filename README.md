@@ -1,2 +1,2 @@
-# CESM-wg
-Project trying to study the effects of increasing CO2 concentration on western ghats using Community Earth System Model (CESM2).
+# CESM-aerosol
+Project trying to study the effects of decreasing aerosol concentration on weather patterns over India using Community Earth System Model (CESM2).
