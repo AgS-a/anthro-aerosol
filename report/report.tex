@@ -1,0 +1,48 @@
+\documentclass{article}
+
+\usepackage{authblk}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[backend=biber]{biblatex}
+
+\addbibresource{ref.bib}
+
+\author{Abhaygnanaskandan S}
+\title{Effects of anthropogenic aerosol emissions}
+%\affil{Roll.no: 20221008}
+\date{\vspace{-5ex}}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+\indent Humans emit a lot of pollutants into the atmosphere that can change the albedo of Earth.\\
+
+\indent In this project, I have reduced all anthropogenic emission that affects albedo by 50\% and 100\% to study the effects of these emissions.\\
+
+\section{Case structure}
+\indent Model: CESM2\\
+\indent Grid: \\
+\indent Compset: F2000climo\\
+\indent Spin-up: 12 years\\
+\indent Analysis: \\
+
+\section{Spin-up plots}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.86\textwidth]{spinup_sfc_temp.png}
+    \caption{Surface temperature Spin up}
+    \label{fig:sfc_temp_spinup}
+\end{figure}
+
+\section{Results}
+
+\section{Inferences}
+
+\section{Conclusion}
+
+\printbibliography
+
+\end{document}
