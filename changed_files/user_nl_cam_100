@@ -1,0 +1,39 @@
+! Users should add all user specific namelist changes below in the form of 
+! namelist_var = new_namelist_value 
+ 
+ srf_emis_specifier		= 'bc_a4 ->  /scratch/ags/as100/cleaned/clean_global_emissions-cmip6_bc_a4_anthro_surface_2000climo_0.9x1.25_c20170608.nc',
+         'bc_a4 ->  /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_bc_a4_bb_surface_2000climo_0.9x1.25_c20170322.nc',
+         'DMS ->    /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_DMS_bb_surface_2000climo_0.9x1.25_c20170322.nc',
+         'DMS ->    /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_DMS_other_surface_2000climo_0.9x1.25_c20170322.nc',
+         'num_a1 -> /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_num_so4_a1_bb_surface_2000climo_0.9x1.25_c20170322.nc',
+         'num_a1 -> /scratch/ags/as100/cleaned/clean_global_emissions-cmip6_num_so4_a1_anthro-ag-ship_surface_2000climo_0.9x1.25_c20170616.nc',
+         'num_a2 -> /scratch/ags/as100/cleaned/clean_global_emissions-cmip6_num_so4_a2_anthro-res_surface_2000climo_0.9x1.25_c20170616.nc',
+         'num_a4 -> /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_num_bc_a4_bb_surface_2000climo_0.9x1.25_c20170322.nc',
+         'num_a4 -> /scratch/ags/as100/cleaned/clean_global_emissions-cmip6_num_bc_a4_anthro_surface_2000climo_0.9x1.25_c20170608.nc',
+         'num_a4 -> /scratch/ags/as100/cleaned/clean_global_emissions-cmip6_num_pom_a4_anthro_surface_2000climo_0.9x1.25_c20170608.nc',
+         'num_a4 -> /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_num_pom_a4_bb_surface_2000climo_0.9x1.25_c20170509.nc',
+         'pom_a4 -> /scratch/ags/as100/cleaned/clean_global_emissions-cmip6_pom_a4_anthro_surface_2000climo_0.9x1.25_c20170608.nc',
+         'pom_a4 -> /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_pom_a4_bb_surface_2000climo_0.9x1.25_c20170322.nc ',
+         'SO2 ->    /scratch/ags/as100/cleaned/clean_global_emissions-cmip6_SO2_anthro-ag-ship-res_surface_2000climo_0.9x1.25_c20170616.nc',
+         'SO2 ->    /scratch/ags/as100/cleaned/clean_global_emissions-cmip6_SO2_anthro-ene_surface_2000climo_0.9x1.25_c20170616.nc',
+         'SO2 ->    /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_SO2_bb_surface_2000climo_0.9x1.25_c20170322.nc',
+         'so4_a1 -> /scratch/ags/as100/cleaned/clean_global_emissions-cmip6_so4_a1_anthro-ag-ship_surface_2000climo_0.9x1.25_c20170616.nc',
+         'so4_a1 -> /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_so4_a1_bb_surface_2000climo_0.9x1.25_c20170322.nc',
+         'so4_a2 -> /scratch/ags/as100/cleaned/clean_global_emissions-cmip6_so4_a2_anthro-res_surface_2000climo_0.9x1.25_c20170616.nc',
+         'SOAG ->   /scratch/ags/as100/cleaned/clean_global_emissions-cmip6_SOAGx1.5_anthro_surface_2000climo_0.9x1.25_c20170608.nc',
+         'SOAG ->   /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_SOAGx1.5_bb_surface_2000climo_0.9x1.25_c20170322.nc',
+         'SOAG ->   /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_SOAGx1.5_biogenic_surface_2000climo_0.9x1.25_c20170322.nc'
+
+ ext_frc_specifier		= 'H2O -> /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/elev/H2O_emission_CH4_oxidationx2_elev_3Dmonthly_L70_2000climo_c180511.nc',
+         'num_a1 -> /scratch/ags/as100/cleaned/clean_global_emissions-cmip6_num_so4_a1_anthro-ene_vertical_2000climo_0.9x1.25_c20170616.nc',
+         'num_a1 -> /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_num_a1_so4_contvolcano_vertical_2000climo_0.9x1.25_c20170724.nc',
+         'num_a2 -> /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_num_a2_so4_contvolcano_vertical_2000climo_0.9x1.25_c20170724.nc',
+         'SO2 ->    /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_SO2_contvolcano_vertical_2000climo_0.9x1.25_c20170322.nc ',
+         'so4_a1 -> /scratch/ags/as100/cleaned/clean_global_emissions-cmip6_so4_a1_anthro-ene_vertical_2000climo_0.9x1.25_c20170616.nc',
+         'so4_a1 -> /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_so4_a1_contvolcano_vertical_2000climo_0.9x1.25_c20170724.nc',
+         'so4_a2 -> /scratch/ags/cesm_input_datasets//atm/cam/chem/emis/CMIP6_emissions_2000climo/emissions-cmip6_so4_a2_contvolcano_vertical_2000climo_0.9x1.25_c20170724.nc'
+
+ndens = 1, 1
+nhtfrq = 0, -24
+fincl2 = 'PRECC', 'PRECL', 'TS', 'U', 'V', 'PSL', 'Q'
+

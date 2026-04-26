@@ -1,0 +1,12 @@
+! Users should add all user specific namelist changes below in the form of 
+! namelist_var = new_namelist_value 
+
+! Tape 1 (h0): Default monthly average
+! Tape 2 (h1): Daily average (-24 means 24 hours)
+nhtfrq = 0, -24
+
+! Output 64-bit precision for BOTH tapes so you don't get the 10^36 error
+ndens = 1, 1
+
+! Add specific variables to the daily h1 file
+fincl2 = 'PRECC', 'PRECL', 'TS', 'U', 'V', 'PSL', 'Q'
